@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(aset/bg1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-blend-mode: color-dodge;
+}
+
+
+
+.map-img {
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.map-img .image1 {
+    width: 400px;
+    position: absolute;
+    left: 8rem;
+}
+
+.map-img .image2 {
+    width: 270px;
+    position: absolute;
+    left: 408.5px;
+    z-index: -1;
+    top: 1.9rem;
+    top: 127px;
+    
+}
+
+.map-img .image3 {
+    width: 200px;
+    position: absolute;
+    left: 610px;
+    top: 163.4px;
+    z-index: -1;
+    
+}
+
+.map-img .image4 {
+    width: 100px;
+    position: absolute;
+    left: 490.58px;
+    top: 251px;
+    z-index: -1;
+}
+
+.map-img .image5 {
+    width: 180px;
+    position: absolute;
+    left: 429px;
+    top: 370px;
+    z-index: -1;
+}
+
+.map-img .image6 {
+    width: 250px;
+    position: absolute;
+    left: 588.8px;
+    top: 324.5px;
+    z-index: -1;
+    
+}
+
+
+.label {
+    font-size: 8px;
+    filter: drop-shadow(3px 1px 5px rgb(255, 255, 255));
+    letter-spacing: 1.3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.label .tandes {
+    color: rgb(12, 12, 228);
+    position: absolute;
+    left: 280px;
+    top: 100px;
+    z-index: 2;
+    text-align: center;
+}
+
+.label .perak {
+    color: rgb(12, 12, 228);
+    position: absolute;
+    left: 530px;
+    top: -20px;
+    z-index: 2;
+    text-align: center;
+}
+
+.label .kenjeran {
+    color: rgb(12, 12, 228);
+    position: absolute;
+    left: 620px;
+    top: 70px;
+    z-index: 2;
+    text-align: center;
+}
+
+.label .indrapura {
+    color: blue;
+    position: absolute;
+    left: 490px;
+    top: 100px;
+    z-index: 3;
+    text-align: center;
+}
+
+.label .embongwungu {
+    color: blue;
+    position: absolute;
+    left: 480px;
+    top: 230px;
+    z-index: 2;
+    text-align: center;
+}
+
+.label .ploso {
+    color: blue;
+    position: absolute;
+    left: 680px;
+    top: 180px;
+    z-index: 2;
+    text-align: center;
+}
+
+.btn-color {
+    margin-left: 54rem;
+    display: block;
+    margin-top: -10rem;
+}
+
+.btn-tandes {
+    display: flex;
+    align-items: start;
+    margin: 1rem;
+}
+
+.btn-tandes h1 {
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-weight: 300;
+}
+
+.btn-tandes .btn {
+    margin-left: 2rem;
+}
+
+.btn-tandes .btn button {
+    border: none;
+    border-radius: 50px;
+    padding: 7px;
+    font-size: 8px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-style: unset;
+}
+
+.btn-tandes .btn .yellow {
+    background-color: yellow;
+}
+
+.btn-tandes .btn .green {
+    background-color: green;
+}
+
+.btn-tandes .btn .red {
+    background-color: red;
+}
+
+
+.clr-tandes {
+    width: 400px;
+    position: absolute;
+    left: 8rem;
+    opacity: 70%;
+}
+
+.clr-embong {
+    width: 180px;
+    position: absolute;
+    left: 429px;
+    top: 370px;
+    z-index: -1;
+    opacity: 70%;
+}
+
+.clr-indrapura {
+    width: 100px;
+    position: absolute;
+    left: 490.58px;
+    top: 251px;
+    z-index: -1;
+    opacity: 70%;
+}
+
+.clr-kenjeran {
+    width: 200px;
+    position: absolute;
+    left: 610px;
+    top: 163.4px;
+    z-index: -1;
+    opacity: 70%;
+}
+
+.clr-perak {
+    width: 270px;
+    position: absolute;
+    left: 408.5px;
+    z-index: -1;
+    top: 1.9rem;
+    top: 127px;
+    opacity: 70%;
+    
+}
+
+.clr-ploso {
+    width: 250px;
+    position: absolute;
+    left: 588.8px;
+    top: 324.5px;
+    z-index: -1;
+    opacity: 70%;
+}
